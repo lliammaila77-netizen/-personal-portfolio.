@@ -1,0 +1,75 @@
+
+body {
+    background-color: #F3E5D0;
+    font-family: Arial;
+    color: #705343;
+    margin: 0;
+    padding: 20px;} 
+
+    header {
+    background-color: #705343;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px;
+    border-radius: 12px;}
+
+header h1 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;}
+
+h1 {
+    color: #705343;
+    text-align: center;
+font-family:'Telma', cursive;}
+h3 {
+    color:  #705343;}
+
+p {
+    color: black;
+    font-size: 16px;}
+
+#home {background-color:white;
+padding: 20px;
+margin: 30px ;
+ text-align: center;
+border: none;}
+.jack{color: brown;}
+  
+main {
+    max-width: 900px;
+    margin: 25px auto;}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;}
+
+ .menu a {
+    text-decoration: none;
+    color:white ;
+    padding: 10px;
+font-weight: bold;}
+
+.menu a:hover {
+    color: white;
+    background-color: #F28C91;
+border-radius: 6px}
+
+@media (max-width: 600px) 
+
+{   .menu { flex-wrap: wrap;
+        gap: 10px;}
+   
+    .menu a { padding: 8px;}
+    
+    h1 { font-size: 20px;} }
+
+    nav {background-color: #718568;
+    padding: 15px;}
+
+    footer {background-color:#705343; }
+    .dog {color: black;}
+
+   
